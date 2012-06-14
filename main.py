@@ -1,5 +1,6 @@
 import os
 from scrapers import scrape_all, get_times, scrape_tags, scrape_metros
+import cPickle as pickle
 
 def scrape(project_root):
     # Scrape data and record in sub-directory raw_downloaded/
